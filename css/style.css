@@ -37,30 +37,6 @@ body{
     background: rgb(115, 113, 131);
 }
 
-.cont{
-    position: relative;
-    float: right;
-    width: 50%;
-    height: 100%;
-    top: -94%;
-}
-
-#div1{
-    color: red;
-    margin-top: 95px;
-    margin-left: 40px;
-}
-#div2{
-    color: red;
-    margin-top: 40px;
-    margin-left: 40px;
-}
-#div3{
-    color: red;
-    margin-top: 35px;
-    margin-left: 40px;
-}
-
 .error{
     margin: 0 auto;
     background: rgb(248, 145, 145);
