@@ -46,13 +46,13 @@
         <div id="error"></div>
         <form action="#" class="form" method="post">
             <label for="fio">Ваше Ф.И.О.</label>
-            <input id="fio" type="text" name="fio">
+            <input id="fio" type="text" name="fio" required>
 
             <label for="email">Ваш E-mail:</label>
-            <input id="email" type="text" name="email">
+            <input id="email" type="email" name="email" required>
 
             <label for="message">Текст вопроса:</label>
-            <textarea id="message" name="message" rows="6"></textarea>
+            <textarea id="message" name="message" rows="6" required></textarea>
 
             <input type="submit" id="sub" name="sub">
         </form>
